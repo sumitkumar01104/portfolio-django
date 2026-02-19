@@ -29,7 +29,7 @@ ALLOWED_HOSTS = [
 
 
 CSRF_TRUSTED_ORIGINS = [
-    https://portfolio-django-4-7fx9.onrender.com
+    'https://portfolio-django-4-7fx9.onrender.com'
 ]
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
