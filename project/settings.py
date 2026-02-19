@@ -18,16 +18,18 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = config('SECRET_KEY', default='unsafe-secret-key')
 
 
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
-    'portfolio-django-5eml.onrender.com',
+    'portfolio-django-4-7fx9.onrender.com',
     'localhost',
     '127.0.0.1',
 ]
 
+
+
 CSRF_TRUSTED_ORIGINS = [
-    'https://portfolio-django-5eml.onrender.com'
+    https://portfolio-django-4-7fx9.onrender.com
 ]
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
